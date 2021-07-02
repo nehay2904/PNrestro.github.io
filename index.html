@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100vh;
+      /* padding: 0px; */
+      /* margin: 5px; */
+    }
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    /* margin-right: 100px; */
+    padding-right: 40px;
+  background: #55ACEE;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fa-instagram{
+    padding-right: 40px;
+
+  background: red;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">PNrestro</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu">MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact">CONTACT</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="login">LOGIN</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+
+  <div class="container mt-3">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img61.jpg" alt="Los Angeles" width="100%" height="80vh">
+      </div>
+      <div class="carousel-item">
+        <img src="img62.jpg" alt="Chicago" width="100%" height="80vh">
+      </div>
+      <div class="carousel-item">
+        <img src="img63.jpg" alt="New York" width="100%" height="80vh">
+      </div>
+      <div class="carousel-item">
+        <img  src="img64.jpg" alt="New York" width="100%" height="80vh">
+      </div>
+      <div class="carousel-item">
+        <img   src="img65.jpg" alt="New York" width="100%" height="80vh">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  
+  </div>
+  <section id="home">
+    <div class="cantainer">
+        <div class="row">
+            <div class="card" id="home">
+                <div class="box">
+                    <div class="content">
+                      <h3 class="visit">VISIT US</h3>
+                    <p>Lawrence Moreno <br>
+                        935-9940 Tortor. Street <br>
+                       malad
+                        Mumbai <br>  (684) 579-1879</p><p>
+                        MONDAY-THUSDAY <br>5pm-10pm <br> FRIDAY-SATURDAY  <br> 5pm-11pm <br> SATURDAY-SUNDAY <br> 10am-3pm
+                    </p>
+                    <a href="java.html" class="read">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="menu">
+                <div class="box">
+                    <div class="content">
+                      <h3 class="visit">MENU</h3>
+                      <p>Our Efforts is serve you the most authentical  and traditional maharashtrian food  . <br> <br> A distinctive attributes, while sharing much with other Indian cuisines. <br> Traditionally, Maharashtrians have considered their food to <br> be  more austere than others </p>
+                           <a target="blank" href="add.html"  class="read">VIEW MENU</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="login">
+                <div class="box">
+                    <div class="content">
+                      <h3 class="visit">LOGIN</h3>
+                       <p>For better experience login here to various deals and suprises. <br> <br> Connect with us to know  <br><br> more about us and our services <br><br> we assure u more convinience and accessibility <br><br>  </p>
+                            <a href="" class="read">LOGIN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+    <footer class="footer" id="contact">
+        <h1 style="text-align: center;">FOLLOW US </h1>
+        <a href="https://www.facebook.com/neha.yednurwar.3" class="fa fa-facebook"></a> &nbsp;&nbsp;
+        <a href="https://www.instagram.com/stories/neha_y13/2608101298528316331/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+        <a href="https://twitter.com/NYednurwar" class="fa fa-twitter"></a>
+        <h1 class="foot">@copyright PNrestro</h1>
+    </footer>
+</body>
+</html>
+
+
